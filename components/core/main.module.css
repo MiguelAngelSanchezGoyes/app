@@ -1,15 +1,21 @@
+.container {
+  position: relative;
+}
+
 .img_ferran {
   width: 1600px;
   height: 640px;
   margin: 120px 0 375px;
   padding: 70px 485px 112px;
   object-fit: contain;
+  position: absolute;
+  z-index: -1;
 }
 
-.Vende-tu-casa-en-un {
+.text_Style_2 {
   width: 449px;
   height: 168px;
-  margin: 0 75px 57px 106px;
+  margin: 70px 560px 402px 591px;
   font-family: Lato;
   font-size: 70px;
   font-weight: 300;
@@ -18,29 +24,247 @@
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: var(--white);
+  color: white;
 }
 
-.Vende-tu-casa-en-un .text-style-1 {
+.text_style_1 {
   font-weight: bold;
 }
 
 .Rectangle {
   width: 1600px;
   height: 605px;
-  background-image: linear-gradient(
-    to bottom,
-    var(--cerulean),
-    rgba(0, 139, 207, 0) 86%
-  );
+  background-image: url('../../public/img/ferran-fusalba-99194.png');
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
 }
 
 .Rectangle_2 {
   width: 630px;
   height: 80px;
-  margin: 57px 0 27px;
+  margin: -295px 0 0 485px;
   padding: 16px 15px 14px 20px;
   border-radius: 3px;
   box-shadow: 4px 4px 8px 0 rgba(23, 53, 111, 0.2);
-  background-color: var(--white);
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+.Rectangle_3 {
+  width: 215px;
+  height: 50px;
+  margin: 0 0 0 48px;
+  padding: 15px 5px 16px 10px;
+  border-radius: 3px;
+  background-color: #008bcf;
+}
+
+.img_Bitmap {
+  width: 94px;
+  height: 90px;
+  margin: -420px 0 0 913px;
+  object-fit: contain;
+  position: absolute;
+  z-index: 1;
+}
+
+.text_style_6 {
+  width: 200px;
+  height: 19px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+}
+
+.Rectangle_4 {
+  width: 1170px;
+  height: 520px;
+  margin: -40px 215px -1px 215px;
+  padding: 56px 24px 80px;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+}
+
+.En_Clicaca {
+  width: 1030px;
+  height: 50px;
+  margin: 0 46px 13px;
+  font-family: Lato;
+  font-size: 42px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0099d9;
+}
+
+.Lorem_2 {
+  width: 499px;
+  height: 52px;
+  margin: 13px 85px 53px 86px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.Lorem_3 {
+  width: 609px;
+  height: 12px;
+  margin: 13px 85px 53px 86px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.img_ventajas {
+  width: 80px;
+  height: 80px;
+  margin: 59px 140px 30px 74px;
+  object-fit: contain;
+}
+
+.Oferta {
+  height: 22px;
+  margin: 30px 68px 21px 0;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #008bcf;
+}
+
+.Pago {
+  height: 22px;
+  margin: 30px 79px 21px 68px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #008bcf;
+}
+
+.Ahrrate {
+  height: 22px;
+  margin: 30px 71px 21px 79px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #008bcf;
+}
+
+.Fecha {
+  height: 22px;
+  margin: 30px 0 21px 71px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #008bcf;
+}
+
+.Rectangle_5 {
+  width: 1600px;
+  height: 605px;
+  background-image: url('../../public/img/ferran-fusalba-99194-copy.png');
+  background-repeat: no-repeat;
+  margin-top: 400px;
+  padding: 116px 24px 80px;
+  position: relative;
+  z-index: 1;
+}
+
+.Rectangle_6 {
+  width: 1030px;
+  height: 160px;
+  margin: -40px 215px -1px 215px;
+  padding: 56px 24px 80px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #008bcf;
+  background-color: #ffffff;
+}
+
+.img_group {
+  height: 534px;
+  width: 1030px;
+  margin: 0px 215px -1px 215px;
+  padding: 56px 24px 80px;
+  background-image: url('../../public/img/group.png');
+  position: absolute;
+  z-index: 2;
+}
+
+/* .img.group2 {
+  height: 534px;
+  width: 1030px;
+  margin: -40px 215px -1px 215px;
+  padding: 56px 24px 80px;
+} */
+
+.Rectangle_7 {
+  width: 1600px;
+  height: 340px;
+  margin-top: 500px;
+  padding: 0;
+  background-image: url(../../public/img/cta.png);
+  position: relative;
+  z-index: 1;
+}
+
+.Rectangle_8 {
+  width: 1600px;
+  height: 516px;
+  margin-top: 650px;
+  padding: 56px 24px 80px;
+}
+
+.Rectangle_9 {
+  width: 226px;
+  height: 38px;
 }
